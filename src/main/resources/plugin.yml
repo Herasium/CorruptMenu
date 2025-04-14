@@ -1,0 +1,20 @@
+name: CorruptMenu
+version: '1.0-SNAPSHOT'
+main: dev.herasium.corruptMenu.CorruptMenu
+api-version: '1.21'
+load: STARTUP
+authors: [ Herasium ]
+website: herasium.dev
+
+depend: ["CorruptCore","ProtocolLib","CorruptCinematic"]
+
+
+commands:
+  mainmenu:
+    description: "Launch the main menu"
+    usage: "/mainmenu"
+
+  cratesmenu:
+    description: "Launch the crates menu"
+    usage: "/cratesmenu"
+
